@@ -1,0 +1,125 @@
+:root {
+   --background-color: #FFF1F1;
+   --primary-color: #E77474;
+   --secondary-color: #1B0808;
+   --btn-background: #fdc2c2;
+   --text-color: #1B0808;
+   --input-background: #FFFAFA;
+   --neutral-white: #fff;
+ }
+
+body {
+   background-color: var(--background-color);
+   font-family: 'Manrope', sans-serif;
+}
+
+.container > h1 {
+   font-family: 'Irish Grover', display;
+   font-size: 48px;
+   color: var(--primary-color);
+}
+
+header {
+   border-bottom: solid 1.5px var(--primary-color);
+   background-color: var(--background-color);
+}
+
+.nav .nav-link.active, 
+nav-delicias {
+   background-color: var(--primary-color);
+   color: var(--neutral-white);
+}
+
+.nav .nav-link {
+   color: var(--text-color);
+}
+
+.container > button.navbar-toggler {
+   border: none;
+   color: var(--primary-color);
+}
+
+button.navbar-toggler-icon {
+   border: none;
+   color: var(--secondary-color);
+}
+
+#carousel .carousel-inner {
+   height: 100vh;
+ }
+ 
+ #carousel .carousel-item img {
+   width: 100%; 
+   height: 90vh; 
+   object-fit: cover;
+ }
+
+ .img-hero {
+   width: 100%; /* Garante que a imagem ocupe toda a largura da coluna */
+   max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+   object-fit: cover; /* Faz com que a imagem preencha o contêiner, sem distorcer */
+}
+
+.col-md-5 {
+   height: 350px; /* Defina a altura desejada para o contêiner */
+   overflow: hidden; /* Garante que a imagem não ultrapasse a área da coluna */
+}
+
+span, h5, form .msg-label {
+   color: var(--primary-color);
+}
+
+.section-title {
+   color: var(--text-color);
+   font-family: 'Irish Grover', display;
+   font-size: 3rem;
+}
+
+h3 {
+   color: var(--text-color);
+   font-family: 'Irish Grover', display;
+   font-size: 2rem;
+}
+h2 > i {
+   font-size: 32px;
+   color: var(--text-color);
+}
+
+.nav-delicias .nav-link {
+   color:  var(--secondary-color);
+   font-weight: 300;
+}
+
+.img-card {
+   height: 50px;
+}
+
+#fale-conosco form input,
+#fale-conosco form textarea{
+   background-color: var(--input-background);
+   color: var(--text-color); /* Para garantir contraste */
+   
+   padding: 0.5rem; /* Melhorar a usabilidade */
+}
+
+.social-links li {
+   list-style: none;
+   display: inline-block;
+}
+
+a > i {
+   color: #E77474;
+}
+
+#fale-conosco form button,
+#sobre button {
+   font-weight: 600;
+   background-color: var(--btn-background);
+   color: var(--secondary-color);
+   border: solid 1px var(--secondary-color);
+}
+
+
+
+
+
